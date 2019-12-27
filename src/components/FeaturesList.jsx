@@ -6,12 +6,12 @@ const itens = [
   {
     icon: Marker,
     title: `Informação em qualquer lugar`,
-    subtitle: `Busque onde quiser de onde estiver`,
+    subtitle: `Busque onde quiser, de onde estiver`,
   },
   {
     icon: Stopclock,
     title: `Economia de tempo`,
-    subtitle: `O que precisar a alguns cliques de você`,
+    subtitle: `O que você precisa a alguns cliques de distância`,
   },
   {
     icon: Shield,
@@ -31,7 +31,7 @@ const FeatureListItem = ({ icon: Icon, title, subtitle }) => (
     <Icon />
     <Box>
       <Styled.h4 sx={{ mb: 2 }}>{title}</Styled.h4>
-      <span sx={{ fontSize: 1 }}>{subtitle}</span>
+      <span sx={{ fontSize: 1, lineHeight: 1.375 }}>{subtitle}</span>
     </Box>
   </Box>
 );
