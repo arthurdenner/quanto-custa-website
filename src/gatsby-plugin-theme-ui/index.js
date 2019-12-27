@@ -111,7 +111,7 @@ export default {
       ...tailwind.styles.h2,
       ...sharedHeadingStyles,
       display: `flex`,
-      fontSize: [2, 3],
+      fontSize: [3, 3, 4],
       lineHeight: 1,
       mb: 0,
       mt: 0,

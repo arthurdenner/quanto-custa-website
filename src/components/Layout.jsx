@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
           },
         },
         span: {
-          fontSize: 1,
+          fontSize: [1, 1, 2],
         },
       })}
     />
