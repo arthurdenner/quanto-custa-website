@@ -56,6 +56,10 @@ export default {
       },
     },
   },
+  lineHeights: {
+    ...tailwind.lineHeights,
+    body: tailwind.lineHeights.normal,
+  },
   fonts: {
     body: `Nunito`,
     heading: `Nunito`,
@@ -90,16 +94,16 @@ export default {
       maxWidth: `1200px`,
     },
     p: {
-      fontSize: [1, 2],
+      fontSize: [1, 1, 2],
       letterSpacing: `-0.003em`,
-      lineHeight: `body`,
+      lineHeight: `relaxed`,
       '--baseline-multiplier': 0.179,
       '--x-height-multiplier': 0.35,
     },
     h1: {
       ...tailwind.styles.h1,
       ...sharedHeadingStyles,
-      fontSize: [4, 5],
+      fontSize: [4, 4, 5],
       mt: 2,
     },
     h2: {
