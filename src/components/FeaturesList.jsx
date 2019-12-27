@@ -41,7 +41,7 @@ const FeaturesList = () => (
     sx={{
       display: `grid`,
       gridTemplateRows: `repeat(${itens.length}, auto)`,
-      gap: 4,
+      gap: 5,
       paddingTop: 0,
     }}
   >
