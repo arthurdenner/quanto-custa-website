@@ -12,7 +12,7 @@ const Features = () => (
       padding: 0,
     }}
   >
-    <Container sx={{ paddingBottom: 5 }}>
+    <Container sx={{ paddingBottom: 0 }}>
       <DeviceThemed />
     </Container>
     <FeaturesList />

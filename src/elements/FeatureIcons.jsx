@@ -1,7 +1,8 @@
 import React from 'react';
 
-export const Marker = () => (
+export const Marker = ({ className }) => (
   <svg
+    className={className}
     width="50"
     height="51"
     viewBox="0 0 50 51"
@@ -26,8 +27,9 @@ export const Marker = () => (
   </svg>
 );
 
-export const Stopclock = () => (
+export const Stopclock = ({ className }) => (
   <svg
+    className={className}
     width="50"
     height="51"
     viewBox="0 0 50 51"
@@ -82,8 +84,9 @@ export const Stopclock = () => (
   </svg>
 );
 
-export const Shield = () => (
+export const Shield = ({ className }) => (
   <svg
+    className={className}
     width="50"
     height="51"
     viewBox="0 0 50 51"

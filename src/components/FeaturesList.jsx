@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { Container, jsx, Box, Styled } from 'theme-ui';
+import { Container, jsx, Box, Flex, Styled } from 'theme-ui';
 import { Marker, Shield, Stopclock } from '../elements/FeatureIcons';
 
-const itens = [
+const items = [
   {
     icon: Marker,
     title: `Informação em qualquer lugar`,
@@ -21,31 +21,18 @@ const itens = [
 ];
 
 const FeatureListItem = ({ icon: Icon, title, subtitle }) => (
-  <Box
-    sx={{
-      display: `grid`,
-      gap: 3,
-      gridTemplateColumns: `auto 1fr`,
-    }}
-  >
-    <Icon />
-    <Box>
+  <Flex sx={{ mt: 5 }}>
+    <Icon sx={{ mr: 3 }} />
+    <Box sx={{ flex: 1 }}>
       <Styled.h4 sx={{ mb: 2 }}>{title}</Styled.h4>
-      <span sx={{ fontSize: 1, lineHeight: 1.375 }}>{subtitle}</span>
+      <span sx={{ fontSize: 1 }}>{subtitle}</span>
     </Box>
-  </Box>
+  </Flex>
 );
 
 const FeaturesList = () => (
-  <Container
-    sx={{
-      display: `grid`,
-      gridTemplateRows: `repeat(${itens.length}, auto)`,
-      gap: 5,
-      paddingTop: 0,
-    }}
-  >
-    {itens.map(item => (
+  <Container sx={{ paddingTop: 0 }}>
+    {items.map(item => (
       <FeatureListItem key={item.title} {...item} />
     ))}
   </Container>
