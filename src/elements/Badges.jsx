@@ -25,7 +25,6 @@ const AppStoreBadge = () => (
 
 const Badges = () => (
   <Box
-    id="download"
     sx={{
       display: [`grid`, `flex`],
       gridGap: 3,

@@ -38,9 +38,9 @@ const Layout = ({ children }) => (
         a: {
           transition: `all 0.3s ease-in-out`,
           textDecoration: `none`,
-          outline: `none`,
-          '&:focus': {
-            boxShadow: `outline`,
+          color: `primary`,
+          '&:hover': {
+            color: `textMuted`,
           },
         },
       })}
