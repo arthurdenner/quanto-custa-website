@@ -1,16 +1,10 @@
 /** @jsx jsx */
 import { Container, jsx, Styled } from 'theme-ui';
 import { HandShake } from '../elements/AdvertisingIcons';
+import ExternalLink from '../elements/ExternalLink';
 
 const DocumentLink = ({ children }) => (
-  <Styled.a
-    href="https://bit.ly/373ZaJz"
-    target="_blank"
-    rel="noopener noreferrer"
-    sx={{ textDecoration: `underline` }}
-  >
-    {children}
-  </Styled.a>
+  <ExternalLink href="https://bit.ly/373ZaJz">{children}</ExternalLink>
 );
 
 const Advertising = () => (

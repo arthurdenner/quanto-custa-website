@@ -26,7 +26,7 @@ const Testimonials = () => (
       <Flex key={item.message.slice(0, 10)} sx={{ mt: 4, display: `flex` }}>
         <OpenQuotes sx={{ mt: 1, mr: 2 }} />
         <Flex sx={{ flexDirection: `column`, flex: 1 }}>
-          <span sx={{ mb: 2 }}>
+          <span sx={{ mb: 2, fontStyle: `italic` }}>
             {item.message}
             <CloseQuotes sx={{ ml: 2 }} />
           </span>

@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const Promote = () => (
   <Link
-    to="#download"
+    to="/#download"
     sx={{
       backgroundColor: `light`,
       display: `block`,

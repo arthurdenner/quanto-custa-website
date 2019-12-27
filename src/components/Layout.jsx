@@ -43,6 +43,9 @@ const Layout = ({ children }) => (
             color: `textMuted`,
           },
         },
+        span: {
+          fontSize: 1,
+        },
       })}
     />
     <Header />
