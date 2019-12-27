@@ -15,7 +15,7 @@ const DocumentLink = ({ children }) => (
 
 const Advertising = () => (
   <Container>
-    <Styled.h2 sx={{ display: `flex`, fontSize: [2, 3], lineHeight: 1, m: 0 }}>
+    <Styled.h2>
       <HandShake sx={{ mr: 3 }} /> Seja nosso parceiro
     </Styled.h2>
     <Styled.p>
