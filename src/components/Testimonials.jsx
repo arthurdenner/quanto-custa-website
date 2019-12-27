@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Container, jsx, Styled, Box, Flex } from 'theme-ui';
+import { Container, jsx, Styled, Flex } from 'theme-ui';
 import { CloseQuotes, OpenQuotes, Review } from '../elements/TestimonialIcons';
 
 const items = [
@@ -19,7 +19,7 @@ const items = [
 
 const Testimonials = () => (
   <Container>
-    <Styled.h2 sx={{ display: `flex`, fontSize: [2, 2], m: 0 }}>
+    <Styled.h2 sx={{ display: `flex`, fontSize: [2, 3], lineHeight: 1, m: 0 }}>
       <Review sx={{ mr: 3 }} /> Depoimentos de usuários
     </Styled.h2>
     {items.map(item => (

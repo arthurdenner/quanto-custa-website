@@ -15,7 +15,7 @@ const Promote = () => (
       sx={{
         m: 0,
         lineHeight: `1rem`,
-        fontSize: 2,
+        fontSize: [2, 2],
         fontWeight: `bold`,
         textAlign: `center`,
       }}

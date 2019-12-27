@@ -4,7 +4,12 @@ import appStoreBadge from '../images/app_store_badge.png';
 import playStoreBadge from '../images/play_store_badge.png';
 
 const PlayStoreBadge = () => (
-  <Styled.a href="/" target="_blank" sx={{ height: `40px` }}>
+  <Styled.a
+    href="/"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={{ height: `40px` }}
+  >
     <Styled.img
       aria-label="Link para download do aplicativo na Play Store"
       src={playStoreBadge}

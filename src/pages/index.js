@@ -1,4 +1,5 @@
 import React from 'react';
+import Advertising from '../components/Advertising';
 import Features from '../components/Features';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout';
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Features />
     <Testimonials />
     <Promote />
+    <Advertising />
   </Layout>
 );
 
