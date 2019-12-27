@@ -97,6 +97,7 @@ export default {
       fontSize: [1, 1, 2],
       letterSpacing: `-0.003em`,
       lineHeight: `relaxed`,
+      mb: 0,
       '--baseline-multiplier': 0.179,
       '--x-height-multiplier': 0.35,
     },

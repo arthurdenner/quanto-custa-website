@@ -7,7 +7,7 @@ const Hero = () => (
     <Styled.h1 sx={{ mb: 3, mt: 0 }}>
       Seu aplicativo diário na hora de economizar.
     </Styled.h1>
-    <Styled.p>
+    <Styled.p sx={{ mb: 3 }}>
       O Quanto Custa é um aplicativo gratuito onde alagoanos podem buscar por
       produtos e combustíveis, visualizar onde é mais barato encontrar o que
       precisam e como chegar até lá.

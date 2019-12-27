@@ -21,7 +21,7 @@ const items = [
 ];
 
 const FeatureListItem = ({ icon: Icon, title, subtitle }) => (
-  <Flex sx={{ mt: 5 }}>
+  <Flex sx={{ mt: 4 }}>
     <Icon sx={{ mr: 3 }} />
     <Box sx={{ flex: 1 }}>
       <Styled.h4 sx={{ mb: 2 }}>{title}</Styled.h4>
