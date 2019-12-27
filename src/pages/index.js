@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../components/About';
 import Advertising from '../components/Advertising';
+import FAQ from '../components/FAQ';
 import Features from '../components/Features';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout';
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Promote />
     <Advertising />
     <About />
+    <FAQ />
   </Layout>
 );
 
