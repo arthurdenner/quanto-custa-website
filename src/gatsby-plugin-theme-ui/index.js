@@ -30,7 +30,7 @@ export default {
     heading: `#FDFFFF`,
     dark: tailwind.colors.gray[7],
     muted: tailwind.colors.gray[5],
-    light: `#955299`,
+    light: `hsla(297, 30%, 46%, 0.5)`,
     model: {
       one: tailwind.colors.gray[2],
       two: tailwind.colors.gray[3],
@@ -46,7 +46,7 @@ export default {
         grayDark: tailwind.colors.gray[1],
         // heading: tailwind.colors.gray[2],
         dark: tailwind.colors.gray[5],
-        light: `#3A3A3A`,
+        light: `hsla(0, 0%, 23%, 0.5)`,
         model: {
           one: tailwind.colors.gray[8],
           two: tailwind.colors.gray[7],
