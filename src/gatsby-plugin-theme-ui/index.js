@@ -40,7 +40,7 @@ export default {
     modes: {
       dark: {
         shadow: tailwind.colors.indigo[8],
-        background: tailwind.colors.gray[9],
+        background: `#212121`,
         backgroundThemes: tailwind.colors.gray[8],
         textMuted: `#7a889c`,
         grayDark: tailwind.colors.gray[1],
@@ -60,7 +60,19 @@ export default {
     body: `Nunito`,
     heading: `Nunito`,
   },
-  breakpoints: [`600px`, `900px`, `1200px`, `1800px`],
+  breakpoints: [`400px`, `600px`, `900px`, `1200px`, `1600px`],
+  space: [
+    0,
+    `0.25rem`,
+    `0.5rem`,
+    `1rem`,
+    `2rem`,
+    `3rem`,
+    `4rem`,
+    `8rem`,
+    `16rem`,
+    `32rem`,
+  ],
   radii: {
     ...tailwind.radii,
     xl: `1rem`,

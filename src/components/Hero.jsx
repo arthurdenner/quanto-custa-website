@@ -3,7 +3,7 @@ import { Container, jsx, Styled } from 'theme-ui';
 import Badges from '../elements/Badges';
 
 const Hero = () => (
-  <Container>
+  <Container sx={{ mb: 7 }}>
     <Styled.h1 sx={{ mb: 3, mt: 0 }}>
       Seu aplicativo diário na hora de economizar.
     </Styled.h1>
