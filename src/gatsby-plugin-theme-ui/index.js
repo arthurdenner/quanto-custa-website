@@ -87,8 +87,6 @@ export default {
       textAlign: `center`,
       display: `block`,
       color: `textMuted`,
-      px: [4, 4],
-      py: [4, 4],
     },
     Container: {
       maxWidth: `1200px`,

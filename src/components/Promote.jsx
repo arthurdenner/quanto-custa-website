@@ -8,14 +8,14 @@ const Promote = () => (
     sx={{
       backgroundColor: `light`,
       display: `block`,
-      p: 3,
+      p: `1.5rem`,
     }}
   >
     <Styled.p
       sx={{
         m: 0,
         lineHeight: `1rem`,
-        fontSize: [2, 2],
+        fontSize: [3, 3],
         fontWeight: `bold`,
         textAlign: `center`,
       }}
