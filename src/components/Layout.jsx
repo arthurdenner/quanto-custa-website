@@ -12,10 +12,11 @@ const Layout = ({ children }) => (
       styles={css({
         '*': {
           boxSizing: `inherit`,
+          scrollBehavior: `smooth`,
         },
         html: {
           height: `100%`,
-          scrollBehavior: `smooth`,
+          transition: `all 0.1s ease-in-out`,
         },
         body: {
           height: `100%`,
