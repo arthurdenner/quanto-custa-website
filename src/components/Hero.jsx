@@ -7,7 +7,7 @@ const Hero = () => {
   const { description } = useSiteMetadata();
 
   return (
-    <Container id="download" sx={{ mb: `7rem` }}>
+    <Container id="download" sx={{ mb: `8rem` }}>
       <Styled.h1 sx={{ mb: 3, mt: 0 }}>{description}</Styled.h1>
       <Styled.p sx={{ mb: 3 }}>
         O Quanto Custa é um aplicativo gratuito onde alagoanos podem buscar por
