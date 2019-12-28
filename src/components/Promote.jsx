@@ -1,28 +1,30 @@
 /** @jsx jsx */
-import { jsx, Styled } from 'theme-ui';
-import { Link } from 'gatsby';
+import { jsx, Box, Styled } from 'theme-ui';
+import Badges from '../elements/Badges';
 
 const Promote = () => (
-  <Link
-    to="/#download"
+  <Box
     sx={{
       backgroundColor: `light`,
-      display: `block`,
-      p: `1.5rem`,
+      display: `flex`,
+      flexDirection: `column`,
+      alignItems: `center`,
+      p: 4,
     }}
   >
-    <Styled.p
+    <Styled.h2
       sx={{
-        m: 0,
-        lineHeight: `1rem`,
+        mt: 0,
+        mb: 3,
         fontSize: [2, 2, 3],
         fontWeight: `bold`,
         textAlign: `center`,
       }}
     >
-      Quero começar a economizar!
-    </Styled.p>
-  </Link>
+      Baixe agora e economize!
+    </Styled.h2>
+    <Badges />
+  </Box>
 );
 
 export default Promote;
