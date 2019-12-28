@@ -8,7 +8,7 @@ const DeviceDark = ({ className }) => {
       query {
         placeholderImage: file(relativePath: { eq: "device_dark.png" }) {
           childImageSharp {
-            fluid(maxWidth: 350) {
+            fluid(maxWidth: 400) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }

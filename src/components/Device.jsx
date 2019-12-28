@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { Container, jsx } from 'theme-ui';
+import { Box, jsx } from 'theme-ui';
 import DeviceThemed from '../elements/DeviceThemed';
 
 const Device = () => (
-  <Container sx={{ p: 0 }}>
-    <DeviceThemed />
-  </Container>
+  <Box sx={{ backgroundColor: [`light`, `light`, `background`], p: 4 }}>
+    <DeviceThemed sx={{ maxWidth: 400 }} />
+  </Box>
 );
 
 export default Device;

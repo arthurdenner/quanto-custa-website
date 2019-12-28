@@ -16,8 +16,10 @@ const DeviceThemed = () => {
       sx={{
         boxShadow,
         borderRadius: `36px`,
-        marginTop: `-7rem`,
-        maxWidth: 350,
+        marginTop: [`-7rem`, `-7rem`, 0],
+        maxWidth: 400,
+        marginRight: `auto`,
+        marginLeft: `auto`,
       }}
     />
   );

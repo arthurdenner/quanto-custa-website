@@ -14,20 +14,19 @@ import Testimonials from '../components/Testimonials';
 const IndexPage = () => (
   <Layout>
     <SEO title="Início" />
-    <Hero />
-    <Box sx={{ backgroundColor: `light`, p: 4 }}>
+    <Box sx={{ p: 0 }}>
       <Container
         sx={{
           display: `grid`,
           gridTemplateColumns: [null, null, `1fr 1fr`],
           alignItems: `center`,
-          gap: 4,
           p: 0,
         }}
       >
+        <Hero />
         <Device />
-        <Features />
       </Container>
+      <Features />
     </Box>
     <Testimonials />
     <Promote />
