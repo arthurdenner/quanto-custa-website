@@ -9,7 +9,7 @@ const DeviceLight = ({ className }) => {
         placeholderImage: file(relativePath: { eq: "device_light.png" }) {
           childImageSharp {
             fluid(maxWidth: 400) {
-              ...GatsbyImageSharpFluid_withWebp
+              ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }

@@ -9,7 +9,7 @@ const DeviceDark = ({ className }) => {
         placeholderImage: file(relativePath: { eq: "device_dark.png" }) {
           childImageSharp {
             fluid(maxWidth: 400) {
-              ...GatsbyImageSharpFluid_withWebp
+              ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }
