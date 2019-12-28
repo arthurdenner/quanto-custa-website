@@ -25,7 +25,7 @@ const Footer = () => (
         alignItems: `center`,
       }}
     >
-      <Logo />
+      <Logo id="footer" />
       <Flex
         sx={{
           justifyContent: `space-around`,
