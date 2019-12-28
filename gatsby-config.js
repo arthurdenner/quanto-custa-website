@@ -22,8 +22,8 @@ module.exports = {
         name: `Quanto Custa`,
         short_name: `Quanto Custa`,
         start_url: `/`,
-        background_color: `hsla(297, 30%, 46%, 0.5)`,
-        theme_color: `hsla(297, 30%, 46%, 0.5)`,
+        background_color: `#562F58`,
+        theme_color: `#562F58`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },

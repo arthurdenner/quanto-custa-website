@@ -13,7 +13,7 @@ import Testimonials from '../components/Testimonials';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Início" />
+    <SEO title="Página Inicial" />
     <Box sx={{ p: 0 }}>
       <Container
         sx={{
