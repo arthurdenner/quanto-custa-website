@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Quanto Custa`,
-    description: `Aplicativo onde alagoanos podem pesquisar preços de produtos e combustíveis.`,
+    description: `Seu aplicativo diário na hora de economizar.`,
     author: `@quantocusta.me`,
   },
   plugins: [
