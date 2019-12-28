@@ -14,9 +14,11 @@ const Layout = ({ children }) => (
           boxSizing: `inherit`,
         },
         html: {
+          height: `100%`,
           scrollBehavior: `smooth`,
         },
         body: {
+          height: `100%`,
           margin: 0,
           padding: 0,
           boxSizing: `border-box`,
@@ -35,8 +37,14 @@ const Layout = ({ children }) => (
           color: `background`,
         },
         '#___gatsby': {
+          height: `100%`,
           position: `relative`,
           overflowX: `hidden`,
+        },
+        '#gatsby-focus-wrapper': {
+          height: `100%`,
+          display: `flex`,
+          flexDirection: `column`,
         },
         a: {
           transition: `all 0.3s ease-in-out`,
