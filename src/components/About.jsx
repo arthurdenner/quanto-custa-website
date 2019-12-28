@@ -23,9 +23,11 @@ const About = () => (
       </Styled.h2>
       <Styled.p>
         O Quanto Custa é um projeto desenvolvido e gerenciado por{` `}
-        <ArthurLink>Arthur Denner</ArthurLink>. Ele foi idealizado por{` `}
-        <MicaelleLink>Micaelle Morais</MicaelleLink> e Arthur, em 2018, e era
-        uma uma aplicação web inicialmente.
+        <ArthurLink>Arthur Denner</ArthurLink>.
+      </Styled.p>
+      <Styled.p>
+        Ele foi idealizado por <MicaelleLink>Micaelle Morais</MicaelleLink> e
+        Arthur, em 2018, e era uma uma aplicação web inicialmente.
       </Styled.p>
     </Container>
   </Box>
