@@ -33,16 +33,29 @@ const Footer = () => (
           mt: [4, 4, 0],
         }}
       >
-        <Link to="/#download" sx={linkStyle}>
+        <Link
+          aria-label="Link para seçäo de download do aplicativo"
+          to="/#download"
+          sx={linkStyle}
+        >
           <Download />
         </Link>
-        <ExternalLink href="mailto:quanto.custa.app@gmail.com" sx={linkStyle}>
+        <ExternalLink
+          aria-label="Enviar e-mail para o Quanto Custa"
+          href="mailto:quanto.custa.app@gmail.com"
+          sx={linkStyle}
+        >
           <Mail />
         </ExternalLink>
-        <ExternalLink href="https://facebook.com/quantocusta.me" sx={linkStyle}>
+        <ExternalLink
+          aria-label="Ver página do Quanto Custa no Facebook"
+          href="https://facebook.com/quantocusta.me"
+          sx={linkStyle}
+        >
           <Facebook />
         </ExternalLink>
         <ExternalLink
+          aria-label="Ver página do Quanto Custa no Instagram"
           href="https://instagram.com/quantocusta.me"
           sx={linkStyle}
         >
