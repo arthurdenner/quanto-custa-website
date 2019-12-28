@@ -10,7 +10,7 @@ export const Question = ({ className }) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clipPath="url(#clip0)">
+    <g>
       <path
         d="M12.5 20.0596C13.1742 20.0596 13.7207 19.513 13.7207 18.8389C13.7207 18.1647 13.1742 17.6182 12.5 17.6182C11.8258 17.6182 11.2793 18.1647 11.2793 18.8389C11.2793 19.513 11.8258 20.0596 12.5 20.0596Z"
         fill="#E4E4E4"
@@ -25,7 +25,7 @@ export const Question = ({ className }) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0">
+      <clipPath>
         <rect y="0.357422" width="25" height="25" fill="white" />
       </clipPath>
     </defs>

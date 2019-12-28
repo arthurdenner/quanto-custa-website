@@ -23,7 +23,7 @@ const Header = () => {
           flexDirection: `row`,
         }}
       >
-        <Logo />
+        <Logo id="header" />
         <button
           onClick={toggleMode}
           sx={{
