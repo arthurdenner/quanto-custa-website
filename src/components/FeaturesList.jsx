@@ -31,7 +31,7 @@ const FeatureListItem = ({ icon: Icon, title, subtitle }) => (
 );
 
 const FeaturesList = () => (
-  <Container sx={{ display: `grid`, gap: 4 }}>
+  <Container sx={{ display: `grid`, gap: 4, p: 0 }}>
     {items.map(item => (
       <FeatureListItem key={item.title} {...item} />
     ))}

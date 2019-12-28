@@ -5,7 +5,6 @@ import FeaturesList from './FeaturesList';
 const Features = () => (
   <Container
     sx={{
-      backgroundColor: `light`,
       margin: 0,
       maxWidth: `full`,
       padding: 0,

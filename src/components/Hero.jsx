@@ -1,11 +1,10 @@
 /** @jsx jsx */
 import { Container, jsx, Styled } from 'theme-ui';
 import Badges from '../elements/Badges';
-import DeviceThemed from '../elements/DeviceThemed';
 
 const Hero = () => (
   <Container id="download" sx={{ padding: 0 }}>
-    <Container sx={{ mb: 7 }}>
+    <Container sx={{ mb: `7rem` }}>
       <Styled.h1 sx={{ mb: 3, mt: 0 }}>
         Seu aplicativo diário na hora de economizar.
       </Styled.h1>
@@ -15,9 +14,6 @@ const Hero = () => (
         precisam e como chegar até lá.
       </Styled.p>
       <Badges />
-    </Container>
-    <Container sx={{ backgroundColor: `light`, paddingBottom: 0 }}>
-      <DeviceThemed />
     </Container>
   </Container>
 );
