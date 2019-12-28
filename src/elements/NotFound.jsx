@@ -8,8 +8,8 @@ const NotFound = ({ className }) => {
       query {
         placeholderImage: file(relativePath: { eq: "not_found.png" }) {
           childImageSharp {
-            fluid(maxWidth: 600, traceSVG: { color: "#e4e4e4" }) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            fluid(maxWidth: 600) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }

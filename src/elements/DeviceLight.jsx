@@ -8,8 +8,8 @@ const DeviceLight = ({ className }) => {
       query {
         placeholderImage: file(relativePath: { eq: "device_light.png" }) {
           childImageSharp {
-            fluid(maxWidth: 400, traceSVG: { color: "#e4e4e4" }) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            fluid(maxWidth: 400) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }
