@@ -111,6 +111,7 @@ export default {
       display: `flex`,
       fontSize: [3, 3, 4],
       lineHeight: 1,
+      justifyContent: [`left`, `left`, `center`],
       mb: 0,
       mt: 0,
     },
