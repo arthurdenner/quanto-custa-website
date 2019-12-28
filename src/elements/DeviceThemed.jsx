@@ -11,7 +11,7 @@ const DeviceThemed = () => {
   return (
     <ColoredDevice
       sx={{
-        marginTop: [`-7rem`, `-7rem`, 0],
+        marginTop: [`-7.5rem`, `-7.5rem`, 0],
         maxWidth: 400,
         marginRight: `auto`,
         marginLeft: `auto`,
