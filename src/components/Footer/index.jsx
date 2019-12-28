@@ -1,9 +1,9 @@
 /**@jsx jsx */
 import { Link } from 'gatsby';
 import { Footer as ThemeFooter, jsx, Flex, Container } from 'theme-ui';
-import ExternalLink from '../elements/ExternalLink';
-import { Download, Mail, Facebook, Instagram } from '../elements/FooterIcons';
-import Logo from '../elements/Logo';
+import ExternalLink from '../ExternalLink';
+import Logo from '../Logo';
+import { Download, Mail, Facebook, Instagram } from './icons';
 
 const linkStyle = {
   display: `flex`,

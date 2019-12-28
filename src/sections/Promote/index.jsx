@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Box, Styled } from 'theme-ui';
-import Badges from '../elements/Badges';
+import Badges from '../../components/Badges';
 
 const Promote = () => (
   <Box

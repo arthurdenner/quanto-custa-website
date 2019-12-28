@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { Link } from 'gatsby';
 import { jsx, Box, Flex } from 'theme-ui';
+import NotFound from '../sections/NotFound';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import NotFound from '../elements/NotFound';
 
 const NotFoundPage = () => (
   <Layout>

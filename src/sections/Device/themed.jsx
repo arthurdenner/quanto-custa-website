@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, useColorMode } from 'theme-ui';
-import DeviceDark from './DeviceDark';
-import DeviceLight from './DeviceLight';
+import DeviceDark from './dark';
+import DeviceLight from './light';
 
 const DeviceThemed = () => {
   const [mode] = useColorMode();

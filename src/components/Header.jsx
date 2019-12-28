@@ -6,8 +6,8 @@ import {
   jsx,
   useColorMode,
 } from 'theme-ui';
-import Logo from '../elements/Logo';
-import ThemeSwitcher from '../elements/ThemeSwitcher';
+import Logo from './Logo';
+import ThemeSwitcher from './ThemeSwitcher';
 
 const Header = () => {
   const [mode, setMode] = useColorMode();

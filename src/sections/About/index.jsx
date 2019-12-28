@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { Box, Container, jsx, Styled } from 'theme-ui';
-import { Group } from '../elements/AboutIcons';
-import ExternalLink from '../elements/ExternalLink';
+import ExternalLink from '../../components/ExternalLink';
+import { Group } from './icons';
 
 const ArthurLink = ({ children }) => (
   <ExternalLink href="https://www.linkedin.com/in/arthurdenner">

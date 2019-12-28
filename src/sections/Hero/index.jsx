@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { Container, jsx, Styled } from 'theme-ui';
-import Badges from '../elements/Badges';
-import useSiteMetadata from '../hooks/useSiteMetadata';
+import Badges from '../../components/Badges';
+import useSiteMetadata from '../../hooks/useSiteMetadata';
 
 const Hero = () => {
   const { description } = useSiteMetadata();

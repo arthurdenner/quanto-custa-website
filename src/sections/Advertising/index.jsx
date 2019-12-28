@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { Container, jsx, Styled } from 'theme-ui';
-import { HandShake } from '../elements/AdvertisingIcons';
-import ExternalLink from '../elements/ExternalLink';
+import ExternalLink from '../../components/ExternalLink';
+import { HandShake } from './icons';
 
 const DocumentLink = ({ children }) => (
   <ExternalLink href="https://bit.ly/373ZaJz">{children}</ExternalLink>

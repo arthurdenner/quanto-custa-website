@@ -1,24 +1,6 @@
 /** @jsx jsx */
 import { Container, jsx, Box, Flex, Styled } from 'theme-ui';
-import { Marker, Shield, Stopclock } from '../elements/FeatureIcons';
-
-const items = [
-  {
-    icon: Marker,
-    title: `Informação em qualquer lugar`,
-    subtitle: `Busque onde quiser, de onde estiver`,
-  },
-  {
-    icon: Stopclock,
-    title: `Economia de tempo`,
-    subtitle: `O que você precisa a alguns cliques de distância`,
-  },
-  {
-    icon: Shield,
-    title: `Confiabilidade nos dados`,
-    subtitle: `Dados fornecidos pela SEFAZ`,
-  },
-];
+import items from './items';
 
 const FeatureListItem = ({ icon: Icon, title, subtitle }) => (
   <Flex

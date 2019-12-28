@@ -1,15 +1,15 @@
 /** @jsx jsx */
 import { jsx, Box, Container } from 'theme-ui';
-import About from '../components/About';
-import Advertising from '../components/Advertising';
-import Device from '../components/Device';
-import FAQ from '../components/FAQ';
-import Features from '../components/Features';
-import Hero from '../components/Hero';
-import Layout from '../components/Layout';
-import Promote from '../components/Promote';
+import About from '../sections/About';
+import Advertising from '../sections/Advertising';
+import Device from '../sections/Device';
+import FAQ from '../sections/FAQ';
+import Features from '../sections/Features';
+import Hero from '../sections/Hero';
+import Promote from '../sections/Promote';
+import Testimonials from '../sections/Testimonials';
 import SEO from '../components/SEO';
-import Testimonials from '../components/Testimonials';
+import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
