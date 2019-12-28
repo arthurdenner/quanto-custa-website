@@ -13,6 +13,9 @@ const Layout = ({ children }) => (
         '*': {
           boxSizing: `inherit`,
         },
+        html: {
+          scrollBehavior: `smooth`,
+        },
         body: {
           margin: 0,
           padding: 0,
