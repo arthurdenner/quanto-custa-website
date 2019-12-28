@@ -13,6 +13,9 @@ const Layout = ({ children }) => (
         '*': {
           boxSizing: `inherit`,
         },
+        html: {
+          scrollBehavior: `smooth`,
+        },
         body: {
           margin: 0,
           padding: 0,
@@ -38,10 +41,13 @@ const Layout = ({ children }) => (
         a: {
           transition: `all 0.3s ease-in-out`,
           textDecoration: `none`,
-          outline: `none`,
-          '&:focus': {
-            boxShadow: `outline`,
+          color: `primary`,
+          '&:hover': {
+            color: `textMuted`,
           },
+        },
+        span: {
+          fontSize: [1, 1, 2],
         },
       })}
     />
