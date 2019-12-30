@@ -8,6 +8,6 @@ module.exports = {
   ogLanguage: `pt_BR`,
   shortDescription: `Seu aplicativo diário na hora de economizar.`,
   siteLanguage: `pt-br`,
-  siteUrl: `http://quanto-custa-website.herokuapp.com`,
+  siteUrl: `https://quanto-custa-website.herokuapp.com`,
   title: `Quanto Custa`,
 };
