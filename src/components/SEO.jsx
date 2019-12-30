@@ -9,7 +9,8 @@ function SEO({ description, title, titleTemplate }) {
     title,
     titleTemplate: titleTemplate || `%s | ${siteMetadata.title}`,
     description: description || siteMetadata.longDescription,
-    image: `${siteMetadata.siteUrl}${siteMetadata.image}`,
+    socialImage: `${siteMetadata.siteUrl}${siteMetadata.socialImage}`,
+    twitterImage: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
     url: `${siteMetadata.siteUrl}`,
   };
 
@@ -17,7 +18,7 @@ function SEO({ description, title, titleTemplate }) {
     <Helmet title={seo.title} titleTemplate={seo.titleTemplate}>
       <html lang={siteMetadata.siteLanguage} />
       <meta name="description" content={seo.description} />
-      <meta name="image" content={seo.image} />
+      <meta name="image" content={seo.socialImage} />
 
       <meta property="og:site_name" content={siteMetadata.facebook} />
       <meta property="og:locale" content={siteMetadata.ogLanguage} />
@@ -25,14 +26,14 @@ function SEO({ description, title, titleTemplate }) {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
-      <meta property="og:image" content={seo.image} />
+      <meta property="og:image" content={seo.socialImage} />
       <meta property="og:image:alt" content={seo.description} />
 
       <meta name="twitter:author" content={siteMetadata.author} />
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={seo.image} />
+      <meta name="twitter:image" content={seo.twitterImage} />
       <meta name="twitter:image:alt" content={seo.description} />
     </Helmet>
   );

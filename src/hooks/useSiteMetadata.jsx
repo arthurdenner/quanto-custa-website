@@ -9,14 +9,15 @@ const useSiteMetadata = () => {
             author
             email
             facebook
-            image
             instagram
             longDescription
             ogLanguage
             shortDescription
             siteLanguage
             siteUrl
+            socialImage
             title
+            twitterImage
           }
         }
       }
