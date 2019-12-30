@@ -26,7 +26,7 @@
     "theme-ui": "0.2.52"
   },
   "devDependencies": {
-    "@lhci/cli": "0.3.x",
+    "@lhci/cli": "0.3.7",
     "@typescript-eslint/eslint-plugin": "2.13.0",
     "@typescript-eslint/parser": "2.13.0",
     "eslint": "6.8.0",
