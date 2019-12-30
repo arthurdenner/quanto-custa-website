@@ -1,8 +1,9 @@
 /** @jsx jsx */
-import { jsx, Styled } from 'theme-ui';
+import { jsx } from 'theme-ui';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const ExternalLink = ({ children, className, href, ...rest }) => (
-  <Styled.a
+  <OutboundLink
     aria-label={rest[`aria-label`]}
     className={className}
     href={href}
@@ -11,7 +12,7 @@ const ExternalLink = ({ children, className, href, ...rest }) => (
     target="_blank"
   >
     {children}
-  </Styled.a>
+  </OutboundLink>
 );
 
 export default ExternalLink;

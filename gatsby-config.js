@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Quanto Custa`,
     description: `Seu aplicativo diário na hora de economizar.`,
-    author: `@quantocusta.me`,
+    author: `@quantocusta_me`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +11,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     `gatsby-transformer-sharp`,
@@ -29,8 +35,5 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 };
