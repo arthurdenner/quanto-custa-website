@@ -1,7 +1,7 @@
 name: Run Lighthouse CI
 on: push
 jobs:
-  static-dist-dir:
+  get-lighthouse-report:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -17,7 +17,7 @@ jobs:
       - name: Build
         run: yarn run build
 
-      - name: Run Lighthouse against a public folder
+      - name: Run Lighthouse against the `public` folder
         uses: treosh/lighthouse-ci-action@v2
         with:
           # no urls needed, since it uses local folder to scan .html files
