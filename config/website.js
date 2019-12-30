@@ -7,7 +7,7 @@ module.exports = {
   ogLanguage: `pt_BR`,
   shortDescription: `Seu aplicativo diário na hora de economizar.`,
   siteLanguage: `pt-br`,
-  siteUrl: `https://quanto-custa-website.herokuapp.com`,
+  siteUrl: `https://quantocusta.netlify.com`,
   socialImage: `/img/social.jpg`,
   title: `Quanto Custa`,
   twitterImage: `/img/twitter.jpg`,
