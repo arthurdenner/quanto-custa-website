@@ -24,15 +24,15 @@ const Features = () => (
       backgroundColor: `light`,
       margin: 0,
       maxWidth: `full`,
-      paddingTop: [0, 0, `2rem`],
+      paddingTop: [0, 0, 6],
     }}
   >
     <Container
       sx={{
         display: `grid`,
         gridTemplateColumns: [null, null, `repeat(${items.length}, 1fr)`],
-        gap: 4,
-        p: 0,
+        gap: [4, 4, 5],
+        p: [0, 0, 0],
       }}
     >
       {items.map(item => (

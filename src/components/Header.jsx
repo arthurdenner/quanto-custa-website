@@ -21,6 +21,8 @@ const Header = () => {
           alignItems: `center`,
           justifyContent: `space-between`,
           flexDirection: `row`,
+          pt: [4, 4, 5],
+          pb: [4, 4, 5],
         }}
       >
         <Logo id="header" />

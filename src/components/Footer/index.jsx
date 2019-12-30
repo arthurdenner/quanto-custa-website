@@ -23,6 +23,8 @@ const Footer = () => {
           flexDirection: [`column`, `column`, `row`],
           justifyContent: [null, null, `space-between`],
           alignItems: `center`,
+          pt: [4, 4, 5],
+          pb: [4, 4, 5],
         }}
       >
         <Logo id="footer" />

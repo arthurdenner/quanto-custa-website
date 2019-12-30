@@ -9,13 +9,13 @@ const Promote = () => (
       display: `flex`,
       flexDirection: `column`,
       alignItems: `center`,
-      p: 4,
+      p: [4, 4, 5],
     }}
   >
     <Styled.h2
       sx={{
         mt: 0,
-        mb: 3,
+        mb: [3, 4, 4],
         fontSize: [2, 2, 3],
         fontWeight: `bold`,
         textAlign: `center`,

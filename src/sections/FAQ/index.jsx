@@ -9,7 +9,13 @@ const FAQ = () => (
       <Question sx={{ mr: 3 }} /> Perguntas frequentes
     </Styled.h2>
     {items.map(item => (
-      <Flex key={item.question} sx={{ flexDirection: `column`, mt: 4 }}>
+      <Flex
+        key={item.question}
+        sx={{
+          flexDirection: `column`,
+          mt: [4, 4, 5],
+        }}
+      >
         <span sx={{ mb: 2, fontWeight: `bold` }}>
           <b>―</b> {item.question}
         </span>

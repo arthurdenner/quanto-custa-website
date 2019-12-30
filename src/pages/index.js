@@ -26,8 +26,7 @@ const IndexPage = () => {
           sx={{
             display: `grid`,
             gridTemplateColumns: [null, null, `1fr 1fr`],
-            alignItems: `center`,
-            p: 0,
+            p: [0, 0, 0],
           }}
         >
           <Hero />

@@ -54,12 +54,14 @@ export default {
     },
     Container: {
       maxWidth: `1200px`,
+      p: [4, 4, 6],
     },
     p: {
       fontSize: [1, 1, 2],
       letterSpacing: `-0.003em`,
       lineHeight: `relaxed`,
       mb: 0,
+      mt: [3, 3, 4],
       '--baseline-multiplier': 0.179,
       '--x-height-multiplier': 0.35,
     },
