@@ -1,0 +1,16 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 1,
+      "staticDistDir": "./public"
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "service-worker": "off",
+        "offline-start-url": "off",
+        "works-offline": "off"
+      }
+    }
+  }
+}

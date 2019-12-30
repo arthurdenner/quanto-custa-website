@@ -18,7 +18,8 @@ const Advertising = () => (
       uma propaganda interativa.
     </Styled.p>
     <Styled.p>
-      <DocumentLink>Clique aqui</DocumentLink> para saber mais sobre isso.
+      Veja <DocumentLink>este documento</DocumentLink> para saber mais sobre
+      isso.
     </Styled.p>
   </Container>
 );
