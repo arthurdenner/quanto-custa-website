@@ -1,0 +1,12 @@
+name: Run Lighthouse CI
+on: push
+jobs:
+  static-dist-dir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run Lighthouse against a public folder
+        uses: ./
+        with:
+          # no urls needed, since it uses local folder to scan .html files
+          configPath: '.github/lighthouse/config.json'

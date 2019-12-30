@@ -1,0 +1,15 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 1
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "service-worker": "off",
+        "offline-start-url": "off",
+        "works-offline": "off"
+      }
+    }
+  }
+}
