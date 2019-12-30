@@ -16,6 +16,7 @@ const useSiteMetadata = () => {
             shortDescription
             siteLanguage
             siteUrl
+            title
           }
         }
       }
