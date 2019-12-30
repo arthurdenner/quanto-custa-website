@@ -5,6 +5,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+
+      - name: Set Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+
+      - name: Install dependencies
+        run: yarn install --prod --pure-lockfile
+
+      - name: Lint
+        run: yarn run lint
+
+      - name: Build
+        run: yarn run build
+
       - name: Run Lighthouse against a public folder
         uses: treosh/lighthouse-ci-action@v2
         with:
