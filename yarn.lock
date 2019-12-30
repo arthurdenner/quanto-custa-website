@@ -1173,7 +1173,7 @@
   dependencies:
     core-js "^2.5.7"
 
-"@lhci/cli@0.3.x":
+"@lhci/cli@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@lhci/cli/-/cli-0.3.7.tgz#d76a43caaa091e988bd295dea49708930e598d7e"
   integrity sha512-7fifWBspBm0momxNuDptNHwiHY6aNkmHFUlW9mXGtUvKK7NOh1J2iYaYF/sQwXGT6tPQugm9HsQEZOG2Hloe5Q==
