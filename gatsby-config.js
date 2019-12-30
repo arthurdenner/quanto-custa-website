@@ -1,9 +1,7 @@
+const website = require(`./config/website`);
+
 module.exports = {
-  siteMetadata: {
-    title: `Quanto Custa`,
-    description: `Seu aplicativo diário na hora de economizar.`,
-    author: `@quantocusta_me`,
-  },
+  siteMetadata: website,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -25,9 +23,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Quanto Custa`,
-        short_name: `Quanto Custa`,
-        description: `Aplicativo gratuito onde alagoanos podem buscar por produtos e combustíveis, visualizar onde é mais barato encontrar o que precisam e como chegar até lá.`,
+        name: website.title,
+        short_name: website.title,
+        description: website.shortDescription,
         start_url: `/`,
         background_color: `#FDFFFF`,
         theme_color: `#562F58`,
