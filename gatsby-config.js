@@ -21,8 +21,9 @@ module.exports = {
       options: {
         name: `Quanto Custa`,
         short_name: `Quanto Custa`,
+        description: `Aplicativo gratuito onde alagoanos podem buscar por produtos e combustíveis, visualizar onde é mais barato encontrar o que precisam e como chegar até lá.`,
         start_url: `/`,
-        background_color: `#562F58`,
+        background_color: `#FDFFFF`,
         theme_color: `#562F58`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
