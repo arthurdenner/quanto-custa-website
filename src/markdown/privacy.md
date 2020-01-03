@@ -9,7 +9,7 @@ Esta página contém informações sobre como o aplicativo e o website do Quanto
 
 ## Informações coletadas
 
-O aplicativo e o website do Quanto Custa não coletam informações sobre você ou seu dispositivo que tornem possível identificá-lo. Só terecemos alguma informação pessoal no envio de um feedback através do aplicativo, mas informar tais dados é totalmente opcional.
+O aplicativo e o website do Quanto Custa não coletam informações sobre você ou seu dispositivo que tornem possível identificá-lo. Só teremos alguma informação pessoal no envio de um feedback através do aplicativo, mas informar tais dados é totalmente opcional.
 
 ## Informações armazenadas
 
@@ -29,7 +29,7 @@ O Quanto Custa tem um sistema de anúncios criado e gerenciado por nós que visa
 
 ### Conteúdo
 
-Os contéudos exibidos podem variar a depender dos nossos parceiros em determinado mês, podendo conter conteúdo impróprio para menores de idade, como divulgação de bares e festas, mas não permitiremos divulgação de conteúdo ilegal, violento ou criminoso.
+Os conteúdos exibidos podem variar a depender dos nossos parceiros em determinado período, podendo conter conteúdo impróprio para menores de idade, como divulgação de bares e festas, mas não permitiremos divulgação de conteúdo sexual, ilegal, violento ou criminoso.
 
 ### Links externos
 
@@ -37,11 +37,11 @@ Os anúncios exibidos podem conter links para outros sites ou aplicativos. Tais 
 
 ### Informações coletadas
 
-Coletamos informações sobre visualizaç˙ão e cliques nos anúncios, mas elas não tornam possível identificar você ou seu dispositivo. A finalidade de tais informações é elaborar métricas para nós e nossos parceiros e assim avaliar a eficiência do serviço.
+Coletamos informações sobre visualizações e cliques nos anúncios, mas elas não tornam possível identificar você ou seu dispositivo. A finalidade de tais informações é elaborar métricas para nós e nossos parceiros e assim avaliar a eficiência do serviço.
 
 ## Serviços de terceiros
 
-O Quanto Custa alguns serviços de terceiros a fim de:
+O Quanto Custa usa alguns serviços de terceiros a fim de:
 
 - Coletar informações sobre o dispositivo em caso de algum erro durante a utilização;
 - Analisar uso e tráfego e obter um entendimento geral dos comportamentos online e dos interesses das pessoas que interagem com nossos serviços.
