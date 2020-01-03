@@ -55,6 +55,9 @@ const Layout = ({ children }) => (
             color: `textMuted`,
           },
         },
+        h1: {
+          mt: 0,
+        },
         span: {
           fontSize: [1, 1, 2],
         },
