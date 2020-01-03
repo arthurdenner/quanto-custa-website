@@ -2,7 +2,8 @@
   "ci": {
     "collect": {
       "numberOfRuns": 1,
-      "staticDistDir": "./public"
+      "staticDistDir": "./public",
+      "url": ["/", "/404", "/politica-de-privacidade"]
     },
     "assert": {
       "preset": "lighthouse:recommended",

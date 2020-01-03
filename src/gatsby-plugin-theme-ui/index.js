@@ -69,7 +69,7 @@ export default {
       ...tailwind.styles.h1,
       ...sharedHeadingStyles,
       fontSize: [4, 4, 5],
-      mt: 2,
+      mt: 0,
     },
     h2: {
       ...tailwind.styles.h2,
