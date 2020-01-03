@@ -3,7 +3,8 @@
   font-style: normal;
   font-weight: bold;
   font-display: swap;
-  src: url('Nunito-Bold.ttf');
+  src: url('Nunito-Bold.woff2') format('woff2'),
+    url('Nunito-Bold.woff') format('woff');
 }
 
 @font-face {
@@ -11,5 +12,6 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url('Nunito-Regular.ttf');
+  src: url('Nunito-Regular.woff2') format('woff2'),
+    url('Nunito-Regular.woff') format('woff');
 }
