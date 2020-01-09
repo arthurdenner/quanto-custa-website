@@ -39,6 +39,14 @@ Os anúncios exibidos podem conter links para outros sites ou aplicativos. Tais 
 
 Coletamos informações sobre visualizações e cliques nos anúncios, mas elas não tornam possível identificar você ou seu dispositivo. A finalidade de tais informações é elaborar métricas para nós e nossos parceiros e assim avaliar a eficiência do serviço.
 
+## Permissões no aplicativo
+
+O Quanto Custa solicita permissão explícita para usar sua câmera e acessar a localização do dispositivo. Essas permissões são opcionais, mas restringí-las limita funcionalidades do aplicativo.
+
+Sua câmera é usada somente ao escanear códigos de barra, nenhuma foto ou vídeo é registrado ou armazenado em seu dispositivo ou em nossos servidores. Restringir a permissão impede você de utilizar esta funcionalidade.
+
+A localização do seu dispositivo só é acessada no momento que você inicia uma busca e registramos as coordenadas em nossos servidores, mas não é possível identificar você ou seu aparelho através delas. Restringir a permissão impede você de buscar a partir de sua localização atual, visualizar a distância até os locais e produtos e ordenar por essa distância.
+
 ## Serviços de terceiros
 
 O Quanto Custa usa alguns serviços de terceiros a fim de:
