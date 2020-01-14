@@ -1,15 +1,11 @@
 const items = [
   {
-    message: `Duis pellentesque hendrerit erat non rhoncus. Fusce non elit in tortor auctor fermentum. Donec tempor diam id leo condimentum hendrerit.`,
-    person: `Fulana de Tal, da loja ABC`,
+    message: `O Quanto Custa é um dos principais auxiliadores no meu dia a dia. Tenho um bar e antes de comprar qualquer coisa, consulto onde está mais em conta, se os preços mudaram. Inclusive, já comprei muitas coisas em promoção pelo hábito de antes de sair de casa dar uma olhadinha básica no app. E não só no bar, mas produtos em geral, como decoração de Natal e tinta para dar uma repaginada no apartamento.`,
+    person: `Evelyn Lopes, usuária e parceira do Quanto Custa`,
   },
   {
-    message: `Aenean pellentesque consequat semper. Pellentesque nec venenatis erat. Phasellus sit amet pretium sem, sit amet malesuada ante. Nam sed risus.`,
-    person: `Ciclana, usuária comum`,
-  },
-  {
-    message: `Maecenas odio nisl, suscipit ac libero id, posuere euismod mauris. Suspendisse elementum mauris nec libero sodales, et scelerisque lectus finibus.`,
-    person: `Hahaha, nossa comediante`,
+    message: `Este site foi uma idéia fantástica. Sempre que preciso comprar algo, primeiro venho consultar os preços aqui. E tem sido bastante útil quando vou fazer minha feira.`,
+    person: `Billy Sandey, usuário do Quanto Custa`,
   },
 ];
 
