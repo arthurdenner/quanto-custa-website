@@ -36,7 +36,7 @@ const Badges = () => (
       gridTemplateColumns: `1fr 1fr`,
     }}
   >
-    Em breve nas stores...
+    <Styled.p sx={{ mt: [0, 0, 0] }}>Em breve nas stores...</Styled.p>
     {/** <PlayStoreBadge />
     <AppStoreBadge /> */}
   </Box>
