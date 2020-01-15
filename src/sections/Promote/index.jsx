@@ -12,7 +12,7 @@ const Promote = () => (
       p: [4, 4, 5],
     }}
   >
-    <Styled.h2
+    {/**<Styled.h2
       sx={{
         mt: 0,
         mb: [3, 4, 4],
@@ -22,7 +22,7 @@ const Promote = () => (
       }}
     >
       Baixe agora e economize!
-    </Styled.h2>
+    </Styled.h2> */}
     <Badges />
   </Box>
 );

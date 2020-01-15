@@ -36,8 +36,9 @@ const Badges = () => (
       gridTemplateColumns: `1fr 1fr`,
     }}
   >
-    <PlayStoreBadge />
-    <AppStoreBadge />
+    Em breve nas stores...
+    {/** <PlayStoreBadge />
+    <AppStoreBadge /> */}
   </Box>
 );
 
