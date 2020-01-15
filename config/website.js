@@ -7,7 +7,7 @@ module.exports = {
   ogLanguage: `pt_BR`,
   shortDescription: `Seu aplicativo diário na hora de economizar.`,
   siteLanguage: `pt-br`,
-  siteUrl: `https://quantocusta.netlify.com`,
+  siteUrl: `https://quantocusta.me`,
   socialImage: `/img/social.jpg`,
   title: `Quanto Custa`,
   twitterImage: `/img/twitter.jpg`,
