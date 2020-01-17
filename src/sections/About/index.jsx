@@ -10,9 +10,7 @@ const ArthurLink = ({ children }) => (
 );
 
 const MicaelleLink = ({ children }) => (
-  <ExternalLink href="https://www.instagram.com/micaelle.morais">
-    {children}
-  </ExternalLink>
+  <ExternalLink href="https://msha.ke/micaelle.morais">{children}</ExternalLink>
 );
 
 const About = () => (
