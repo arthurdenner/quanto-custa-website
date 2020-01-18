@@ -40,7 +40,6 @@ const Layout = ({ children }) => (
         '#___gatsby': {
           height: `100%`,
           position: `relative`,
-          overflowX: `hidden`,
         },
         '#gatsby-focus-wrapper': {
           height: `100%`,
