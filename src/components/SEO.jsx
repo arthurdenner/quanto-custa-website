@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import useSiteMetadata from '../hooks/useSiteMetadata';
 
-function SEO({ description, title, titleTemplate }) {
+function SEO({ description, path, title, titleTemplate }) {
   const siteMetadata = useSiteMetadata();
   const seo = {
     title,
@@ -11,7 +11,7 @@ function SEO({ description, title, titleTemplate }) {
     description: description || siteMetadata.longDescription,
     socialImage: `${siteMetadata.siteUrl}${siteMetadata.socialImage}`,
     twitterImage: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-    url: `${siteMetadata.siteUrl}`,
+    url: `${siteMetadata.siteUrl.concat(path)}`,
   };
 
   return (
@@ -42,15 +42,17 @@ function SEO({ description, title, titleTemplate }) {
   );
 }
 
-SEO.defaultProps = {
-  description: ``,
-  titleTemplate: ``,
-};
-
 SEO.propTypes = {
   description: PropTypes.string,
+  path: PropTypes.string,
   title: PropTypes.string.isRequired,
   titleTemplate: PropTypes.string,
+};
+
+SEO.defaultProps = {
+  description: ``,
+  path: ``,
+  titleTemplate: ``,
 };
 
 export default SEO;
