@@ -4,7 +4,7 @@ import { Container } from 'theme-ui';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
-export default function Template({ data }) {
+export default function Template({ data, path }) {
   const title = `Política de Privacidade`;
   const { markdownRemark } = data;
   const { html, excerpt } = markdownRemark;
@@ -12,7 +12,7 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <SEO description={description} title={title} />
+      <SEO description={description} path={path} title={title} />
       <Container dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
