@@ -4,8 +4,8 @@ import appStoreBadge from '../images/app_store_badge.png';
 import playStoreBadge from '../images/play_store_badge.png';
 import ExternalLink from './ExternalLink';
 
-const appStoreLink = `/`;
-const playStoreLink = `/`;
+const appStoreLink = `https://apps.apple.com/us/app/quanto-custa-alagoas/id1494023734?ls=1`;
+const playStoreLink = `https://play.google.com/store/apps/details?id=com.arthurdenner.quanto_custa`;
 
 const PlayStoreBadge = () => (
   <ExternalLink href={playStoreLink} sx={{ height: `40px` }}>
