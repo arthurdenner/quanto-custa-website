@@ -1,6 +1,6 @@
 # Quanto Custa
 
-This project contains the code of the website to [Quanto Custa](https://quantocusta.me), a mobile application that enable its users from Alagoas to search for products and fuels.
+This project contains the code of the website to [Quanto Custa](https://quantocusta.me), a mobile application that enable its users from Alagoas, Brazil to search for products and fuels.
 
 ## Stack
 
@@ -10,16 +10,16 @@ The website is built with [GatsbyJS](https://www.gatsbyjs.org/) and [ThemeUI](ht
 
 The website is small and these are the main folders:
 
-- components - common and reusable pieces of UI
-- fonts - pretty obvious
-- gatsby-plugin-theme-ui - configuration for ThemeUI
-- hooks - reusable logic
-- images - pretty obvious too
-- markdown - files that are converted into pages
-- pages - static pages written in React
-- sections - collection of parts that compose a page
-- templates - files are mixed with other sources to generate pages
-- static - files that are available on the `public` folder
+- `components` - common and reusable pieces of UI
+- `fonts` - pretty obvious
+- `gatsby-plugin-theme-ui` - configuration for ThemeUI
+- `hooks` - reusable logic
+- `images` - pretty obvious too
+- `markdown` - files that are converted into pages
+- `pages` - static pages written in React
+- `sections` - collection of parts that compose a page
+- `templates` - files are mixed with other sources to generate pages
+- `static` - files that are available on the `public` folder
 
 ## Contribution
 
