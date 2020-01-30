@@ -7,6 +7,10 @@ const items = [
     message: `Este site foi uma idéia fantástica. Sempre que preciso comprar algo, primeiro venho consultar os preços aqui. E tem sido bastante útil quando vou fazer minha feira.`,
     person: `Billy Sandey, usuário do Quanto Custa`,
   },
+  {
+    message: `Com a busca por código de barras, economizei R$ 30 na compra de remédios para minha mãe.`,
+    person: `Karla Elisabeth, usuária do Quanto Custa`,
+  },
 ];
 
 export default items;
