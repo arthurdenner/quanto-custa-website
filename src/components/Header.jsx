@@ -14,7 +14,7 @@ const Header = () => {
   const toggleMode = () => setMode(mode === `light` ? `dark` : `light`);
 
   return (
-    <ThemeHeader>
+    <ThemeHeader sx={{ display: `block` }}>
       <Container
         as={Flex}
         sx={{
