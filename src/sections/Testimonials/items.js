@@ -11,6 +11,10 @@ const items = [
     message: `Com a busca por código de barras, economizei R$ 30 na compra de remédios para minha mãe.`,
     person: `Karla Elisabeth, usuária do Quanto Custa`,
   },
+  {
+    message: `O Quanto Custa já me ajudou em três ocasiões interessantes: achar um produto em Maceió mais barato do que na internet, ter base de preço em um produto que eu estava interessada e verificar se uma promoção era verdadeira vendo o preço em outros lugares.`,
+    person: `Fernanda Leão, usuária do Quanto Custa`,
+  },
 ];
 
 export default items;
