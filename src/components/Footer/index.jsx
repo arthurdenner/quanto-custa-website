@@ -4,7 +4,7 @@ import { Box, Footer as ThemeFooter, jsx, Flex, Container } from 'theme-ui';
 import useSiteMetadata from '../../hooks/useSiteMetadata';
 import ExternalLink from '../ExternalLink';
 import Logo from '../Logo';
-import { Download, Mail, Facebook, Instagram } from './icons';
+import { Download, Mail, Facebook, GitHub, Instagram } from './icons';
 
 const linkStyle = {
   display: `flex`,
@@ -48,6 +48,13 @@ const Footer = () => {
               sx={linkStyle}
             >
               <Mail />
+            </ExternalLink>
+            <ExternalLink
+              aria-label="Link para o repositório deste site"
+              href="https://github.com/arthurdenner/quanto-custa-website"
+              sx={linkStyle}
+            >
+              <GitHub />
             </ExternalLink>
             <ExternalLink
               aria-label="Ver página do Quanto Custa no Facebook"
