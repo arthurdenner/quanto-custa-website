@@ -4,7 +4,15 @@ import ExternalLink from '../../components/ExternalLink';
 import { HandShake } from './icons';
 
 const DocumentLink = ({ children }) => (
-  <ExternalLink href="https://bit.ly/373ZaJz">{children}</ExternalLink>
+  <ExternalLink href="https://drive.google.com/open?id=1Mk_QnFEsU5oNsBLAAyXIWTPdJYg1GEmm">
+    {children}
+  </ExternalLink>
+);
+
+const FormLink = ({ children }) => (
+  <ExternalLink href="https://airtable.com/shr7ykMS2IwW8v5Sq">
+    {children}
+  </ExternalLink>
 );
 
 const Advertising = () => (
@@ -20,6 +28,9 @@ const Advertising = () => (
     <Styled.p>
       Veja <DocumentLink>este documento</DocumentLink> para saber mais sobre
       isso.
+    </Styled.p>
+    <Styled.p>
+      Envie sua propaganda através <FormLink>deste formulário</FormLink>.
     </Styled.p>
   </Container>
 );
