@@ -1,6 +1,6 @@
 # Quanto Custa
 
-This project contains the code of the website to [Quanto Custa](https://quantocusta.me), a mobile application that enable its users from Alagoas, Brazil to search for products and fuels.
+This project contains the code of the website to [Quanto Custa](https://quantocusta.netlify.app), a mobile application that enable its users from Alagoas, Brazil to search for products and fuels.
 
 ## Stack
 
